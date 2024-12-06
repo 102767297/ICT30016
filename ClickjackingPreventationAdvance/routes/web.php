@@ -4,11 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Middleware\XFrameHeadersMiddleware;
 
 // Login Route
 Route::get('/', function () {
     return view('login'); // Ensure 'login.blade.php' exists in the resources/views folder
-})->name('login'); // Name this route 'login'
+})->name('login')->middleware(XFrameHeadersMiddleware::class);
 
 // Login POST Route
 Route::post('/login', [LoginController::class, 'login'])->name('login.post');

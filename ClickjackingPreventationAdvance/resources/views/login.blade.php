@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="z6llz5VIwWR6jMZttPsaPq5ATK5521Y0xvyYurO9">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Biotective DRC </title>
     <link rel="stylesheet" href="http://13.213.0.173/vendor/icheck-bootstrap/icheck-bootstrap.min.css">
@@ -29,12 +29,11 @@
     </script>
 
 
-
-    <link rel="stylesheet" href="http://13.213.0.173/vendor/fontawesome-free/css/all.min.css">
+    <!--<link rel="stylesheet" href="http://13.213.0.173/vendor/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="http://13.213.0.173/vendor/overlayScrollbars/css/OverlayScrollbars.min.css">
     <link rel="stylesheet" href="http://13.213.0.173/vendor/adminlte/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <link rel="stylesheet" href="http://13.213.0.173/vendor/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="http://13.213.0.173/vendor/icheck-bootstrap/icheck-bootstrap.min.css">-->
     <style>
         body {
             /* font-family: 'Nunito', sans-serif; */
@@ -112,7 +111,7 @@
 
     <div class="login-box">
         <div class="login-logo">
-            <a href="http://13.213.0.173/home">
+            <a href="">
                 <img src="http://13.213.0.173/images/BioTectiveLogo.png" height="50">
                 <b>BioTective</b>DRC
 
@@ -164,7 +163,7 @@
             <div class="card-footer ">
 
                 <p class="my-0">
-                    <a href="http://13.213.0.173/password/reset">
+                    <a href="t">
                         I forgot my password
                     </a>
                 </p>
@@ -172,11 +171,11 @@
         </div>
     </div>
 
-    <script src="http://13.213.0.173/vendor/jquery/jquery.min.js"></script>
+    <!--<script src="http://13.213.0.173/vendor/jquery/jquery.min.js"></script>
     <script src="http://13.213.0.173/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="http://13.213.0.173/vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
     <script src="http://13.213.0.173/vendor/jquery-ui/jquery-ui.min.js"></script>
-    <script src="http://13.213.0.173/vendor/adminlte/dist/js/adminlte.min.js"></script>
+    <script src="http://13.213.0.173/vendor/adminlte/dist/js/adminlte.min.js"></script>-->
 </body>
 
 </html>
